@@ -3,4 +3,4 @@ class RiceType:
 
 class Rice:
     def __init__(self, rice_type: RiceType) -> None:
-        pass
+        self.rice_type = rice_type
