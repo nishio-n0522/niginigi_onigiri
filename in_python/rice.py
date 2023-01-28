@@ -1,5 +1,7 @@
 class RiceType:
     Koshihikari: str = "so_tasty"
+    Akitakomachi: str = "nice"
+    Yumepirika: str = "cute"
 
 class Rice:
     def __init__(self, rice_type: RiceType) -> None:
